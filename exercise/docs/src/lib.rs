@@ -15,6 +15,13 @@
 // - Document the "roundness" field, explaining that it is a percentage
 // - Document the "orangeness" field, explaining that it is a number from 8 to 27
 
+//! the little pumpkin
+//! Image of pumpkin ![Pumpkin avatar](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/700px-FrenchMarketPumpkinsB.jpg)
+
+/// Big pumpkin  =))
+/// # Realy is a pumpkin
+/// I dont know
+///
 pub struct Pumpkin {
     pub roundness: f32,
     pub orangeness: i32,
