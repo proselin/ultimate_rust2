@@ -73,7 +73,7 @@ fn main() -> Result<()> {
         if responses.len() > 0 {
             println!("{} did a FABULOUS PERFORMANCE!", dolphin.name);
             for response in responses {
-                println!("  {}", response);x
+                println!("  {}", response);
             }
         }
 
