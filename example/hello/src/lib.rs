@@ -5,15 +5,15 @@
 /// let bunnies = snuggle(5);
 /// assert_eq!(bunnies, 40);
 /// ```
-pub fn snuggle(bunnies: u128) -> u128 {
-    bunnies << 3
-}
+// pub fn snuggle(bunnies: u128) -> u128 {
+//     bunnies << 3
+// }
 
 // The typical, multiplication approach
 //
-// pub fn snuggle(bunnies: u128) -> u128 {
-//     bunnies * 8
-// }
+pub fn snuggle(bunnies: u128) -> u128 {
+    bunnies * 8
+}
 
 // The loop approach
 //

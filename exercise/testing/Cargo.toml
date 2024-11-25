@@ -5,7 +5,6 @@ edition = "2021"
 
 [dependencies]
 
-
 # Challenge Help 1: If you choose to take on the challenge, you'll need to add `criterion` as a
 # development dependency. Here is one way to do it:
 
