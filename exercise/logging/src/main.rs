@@ -8,7 +8,7 @@ use frogger::Frog;
 
 fn main() {
     // 8. Initialize env_logger using the init() function at the top level of the library
-
+    env_logger::init();
     // 9. Run this program with `cargo run` and take a look at the default output.
     // - Now run it again with an explicit log level, like `RUST_LOG=info cargo run`
     // - or `RUST_LOG=trace cargo run`
@@ -23,4 +23,5 @@ fn main() {
 
     // Challenge: Go back to lib.rs and set the `target: ` argument for each logging call to be the
     // path to the function.  For example, `Frog::new`
+    // OKE
 }
